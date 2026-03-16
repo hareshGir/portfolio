@@ -1,51 +1,31 @@
-<h2 align="center">
-  Portfolio Website - Haresh Gir<br/>
-  <a href="https://github.com/hareshGir/portfolio" target="_blank">hareshgir.vercel.app</a>
-</h2>
+# Haresh Gir — Portfolio
 
-<center>
+Personal portfolio website built with Next.js and deployed on Vercel.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-
-</center>
-
-## About
-
-My personal portfolio — **Haresh Gir** — Lead Frontend Developer with 5+ years of experience building scalable web applications using React and Next.js. Features my projects, resume, and technical skills.
-
-Built with:
+## Tech Stack
 
 - Next.js
 - React.js
-- React-Bootstrap & CSS3
-- Web3 / Blockchain UI
-- Vercel
+- React-Bootstrap
+- CSS3
 
-## Features
+## Getting Started
 
-**📖 Multi-Page Layout**
+```bash
+npm install
+npm run dev
+```
 
-**🎨 Styled with React-Bootstrap and CSS with easy to customize colors**
+Open [http://localhost:3000](http://localhost:3000)
 
-**📱 Fully Responsive**
+## Build
 
-## 🛠 Installation and Setup
-
-1. Install dependencies: `npm install`
-
-2. Run in development mode: `npm run dev`
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-3. Build for production: `npm run build`
+```bash
+npm run build
+npm start
+```
 
 ## Contact
 
-- LinkedIn: [linkedin.com/in/haresh-gir-0b1a04205](https://www.linkedin.com/in/haresh-gir-0b1a04205)
 - Email: haresh.gir007@gmail.com
-
----
-
-*Based on the open-source template by [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio)*
+- LinkedIn: [linkedin.com/in/haresh-gir-0b1a04205](https://www.linkedin.com/in/haresh-gir-0b1a04205)
