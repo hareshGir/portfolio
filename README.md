@@ -2,11 +2,6 @@
   Portfolio Website - Haresh Gir<br/>
   <a href="https://github.com/hareshGir/portfolio" target="_blank">hareshgir.vercel.app</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
-
-<br/>
 
 <center>
 
