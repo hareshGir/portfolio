@@ -2,13 +2,14 @@ export const profile = {
   name: "Haresh Gir",
   title: "Strategic Lead Frontend Engineer",
   tagline:
-    "18+ years building high-scale Web3 and Fintech ecosystems — architecting performant, accessible, multi-chain platforms.",
+    "13+ years building high-scale Web3 and Fintech ecosystems — architecting performant, accessible, multi-chain platforms.",
   summary:
-    "Strategic Lead Frontend Engineer with 18+ years of expertise in building high-scale Web3 and Fintech ecosystems. Proven track record in leading distributed teams to architect performant, accessible, and multi-chain platforms. Specialized in React/Next.js and blockchain integration, focused on delivering seamless user experiences.",
+    "Strategic Lead Frontend Engineer with 13+ years of expertise in building high-scale Web3 and Fintech ecosystems. Proven track record in leading distributed teams to architect performant, accessible, and multi-chain platforms. Specialized in React/Next.js and blockchain integration, focused on delivering seamless user experiences.",
   location: "Satellite Town, Rawalpindi, Pakistan",
   email: "haresh.gir007@gmail.com",
   phone: "+92 300 3481907",
-  linkedin: "https://linkedin.com/in/haresh-gir",
+  linkedin: "https://www.linkedin.com/in/haresh-gir-0b1a04205",
+  github: "https://github.com/hareshGir",
   resumeFile: "/haresh-gir-resume.pdf",
 };
 
@@ -19,8 +20,11 @@ export const skills = [
   "Redux / React Query",
   "Web3 / Blockchain UI",
   "Ethers.js / Wagmi / Web3.js",
+  "Request Network / Invoicing",
+  "MetaMask / Wallet Payments",
   "RESTful APIs / GraphQL",
-  "Git / Firebase / CI-CD",
+  "Firebase (Auth, Firestore, Hosting, App Check)",
+  "Git / CI-CD",
   "Responsive Design",
 ];
 
@@ -38,6 +42,7 @@ export const experience = [
   {
     role: "Lead Frontend Developer",
     company: "Kryptos",
+    companyUrl: "https://app.kryptos.io",
     location: "Sweden / Remote",
     start: "2020.03",
     end: "Present",
@@ -53,6 +58,7 @@ export const experience = [
   {
     role: "Lead Frontend Engineer",
     company: "Zeptagram",
+    companyUrl: "https://nft.zeptagram.com",
     location: "Web3 / NFT",
     start: "2018.06",
     end: "2020.02",
@@ -113,6 +119,24 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+    name: "Kryptos",
+    year: "2020–Present",
+    description:
+      "Architecting the frontend for an AI-powered Web3 finance platform — one-click crypto tax reports and multi-chain reconciliation across 5,000+ integrations.",
+    tags: ["Next.js", "DeFi", "Multi-chain"],
+    link: "https://app.kryptos.io",
+    logo: "/logos/kryptos.png",
+  },
+  {
+    name: "Zeptagram NFT Marketplace",
+    year: "2018–2020",
+    description:
+      "Architected and delivered a full-scale NFT marketplace with minting workflows, bidding systems, and secure wallet integrations.",
+    tags: ["NFT", "Ethers.js", "Marketplace"],
+    link: "https://nft.zeptagram.com/",
+    logo: "/logos/zeptagram.png",
+  },
   {
     name: "Crypto Gaming Platform",
     year: "2021",

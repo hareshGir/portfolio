@@ -9,20 +9,31 @@ export function Experience() {
         <SectionHeading
           eyebrow="Career"
           title="Professional Experience"
-          description="18+ years leading frontend engineering across Web3, DeFi, and fintech platforms."
+          description="13+ years leading frontend engineering across Web3, DeFi, and fintech platforms."
         />
 
         <div className="relative space-y-10 border-l border-border pl-8">
           {experience.map((job, i) => (
             <Reveal key={job.company} delay={i * 0.05} className="relative">
               <span
-                className={`absolute -left-[2.35rem] top-1.5 h-3 w-3 rounded-full border-2 border-background ${
-                  job.current ? "bg-accent" : "bg-muted"
-                }`}
+                className={`absolute -left-[2.35rem] top-1.5 h-3 w-3 rounded-full border-2 border-background ${job.current ? "bg-accent" : "bg-muted"
+                  }`}
               />
               <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
                 <h3 className="text-lg font-semibold">
-                  {job.role} · {job.company}
+                  {job.role} ·{" "}
+                  {job.companyUrl ? (
+                    <a
+                      href={job.companyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-accent"
+                    >
+                      {job.company}
+                    </a>
+                  ) : (
+                    job.company
+                  )}
                 </h3>
                 <span className="text-sm text-muted">
                   {job.start} – {job.end}

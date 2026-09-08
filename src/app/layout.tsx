@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Haresh Gir — Lead Frontend Engineer",
   description:
-    "Strategic Lead Frontend Engineer with 18+ years of experience building high-scale Web3 and Fintech ecosystems. Specialized in React, Next.js, and blockchain integration.",
+    "Strategic Lead Frontend Engineer with 13+ years of experience building high-scale Web3 and Fintech ecosystems. Specialized in React, Next.js, and blockchain integration.",
   keywords: [
     "Haresh Gir",
     "Frontend Engineer",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Haresh Gir — Lead Frontend Engineer",
     description:
-      "18+ years building high-scale Web3 and Fintech ecosystems. Specialized in React/Next.js and blockchain integration.",
+      "13+ years building high-scale Web3 and Fintech ecosystems. Specialized in React/Next.js and blockchain integration.",
     type: "website",
   },
 };

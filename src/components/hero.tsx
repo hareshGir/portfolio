@@ -83,7 +83,7 @@ export function Hero() {
           className="grid w-full max-w-2xl grid-cols-3 gap-6 border-t border-border pt-8"
         >
           {[
-            { value: "18+", label: "Years Experience" },
+            { value: "13+", label: "Years Experience" },
             { value: "5,000+", label: "Chain Integrations" },
             { value: "35%", label: "Core Web Vitals Gain" },
           ].map((stat) => (
